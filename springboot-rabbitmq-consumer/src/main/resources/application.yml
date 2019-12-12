@@ -1,0 +1,10 @@
+server:
+  port: 8002
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: shangzhijie
+    password: sj7644553
+    virtual-host: /wqj
