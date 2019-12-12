@@ -1,0 +1,2 @@
+# RabbitMQDemo
+此Demo的目的是为了了解与熟悉RabbitMQ
