@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMQConfig {
     // 交换机名称
-    private static final String ITEM_TOPIC_EXCHANGE = "item_topic_exchange";
+    public static final String ITEM_TOPIC_EXCHANGE = "item_topic_exchange";
     // 队列名称
-    private static final String ITEM_QUEUE = "item_queue";
+    public static final String ITEM_QUEUE = "item_queue";
 
     // 声明队列
     @Bean("itemQueue")
